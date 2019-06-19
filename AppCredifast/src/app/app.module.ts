@@ -5,12 +5,14 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { InicioVisitadorComponent } from './inicio-visitador/inicio-visitador.component';
 import { RegistrarVisitaComponent } from './registrar-visita/registrar-visita.component';
+import { CambiarContrasenaComponent } from './cambiar-contrasena/cambiar-contrasena.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     InicioVisitadorComponent,
-    RegistrarVisitaComponent
+    RegistrarVisitaComponent,
+    CambiarContrasenaComponent
   ],
   imports: [
     BrowserModule,

@@ -19,9 +19,76 @@
           <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Contraseña">
         </div>
         <button type="submit" class="btn btn-primary" routerLink="homevisitador" >Ingresar</button>
+        <br>
+        <a class="nav-link text-center" data-toggle="modal" data-target="#exampleModal1" href="#">Olvidaste tu contraseña?</a>
+        <div class="form-group text-center">
+          <a href="#" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal2">Cambiar Contraseña</a>
+        </div>
       </form>
     </div>
   </div>
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Recuperar Contraseña</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form class="form-inline my-2 my-lg-0">
+              <input class="form-control mr-sm-2" type="search" placeholder="Ingrese el usuario a recuperar" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Ingresar</button>
+            </form>
+            <div class="card text-white bg-warning">
+              <div class="card-body">
+                Se acaba de enviar un correo con su nueva contraseña.
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+  </div>
+  <!-- Modal 2-->
+  <div class="modal fade" id="exampleModal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Cambiar Contraseña</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form class="">
+              <fieldset disabled>
+                <input class="form-control disabled" type="search" placeholder="lriverah" aria-label="Search"/>
+              </fieldset>
+              <br>
+              <input class="form-control mr-sm-2" type="search" placeholder="Antigua Contraseña" aria-label="Search">
+              <br>
+              <input class="form-control mr-sm-2" type="search" placeholder="Nueva Contraseña" aria-label="Search">
+              <br>
+              <input class="form-control mr-sm-2" type="search" placeholder="Repita Nueva Contraseña" aria-label="Search">
+              <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Ingresar</button>
+            </form>
+            <div class="card text-white bg-success">
+              <div class="card-body">
+                Contraseña cambiada correctamente.
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+          </div>
+        </div>
+      </div>
+    </div>
 </div>
 <router-outlet></router-outlet>
 <app-registrar-visita></app-registrar-visita>
