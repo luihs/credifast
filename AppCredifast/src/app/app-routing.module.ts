@@ -5,13 +5,17 @@ import { RegistrarVisitaComponent } from './registrar-visita/registrar-visita.co
 import { CambiarContrasenaComponent } from './cambiar-contrasena/cambiar-contrasena.component';
 import { RegistroSunatComponent } from './registro-sunat/registro-sunat.component';
 import { RegistroSunarpComponent } from './registro-sunarp/registro-sunarp.component';
+import { RegistroMontoComponent } from './registro-monto/registro-monto.component';
+import { InicioAdministradorComponent } from './inicio-administrador/inicio-administrador.component';
 
 const routes: Routes = [
   { path: "homevisitador", component: InicioVisitadorComponent },
   { path: "registrarvisita", component: RegistrarVisitaComponent },
   { path: "cambiarcontrasena", component: CambiarContrasenaComponent },
   { path: "registrosunat", component: RegistroSunatComponent },
-  { path: "registrosunarp", component: RegistroSunarpComponent }
+  { path: "registrosunarp", component: RegistroSunarpComponent },
+  { path: "registromonto", component: RegistroMontoComponent },
+  { path: "homeadministrador", component: InicioAdministradorComponent }
 ];
 
 @NgModule({

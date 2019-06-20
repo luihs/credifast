@@ -8,6 +8,8 @@ import { RegistrarVisitaComponent } from './registrar-visita/registrar-visita.co
 import { CambiarContrasenaComponent } from './cambiar-contrasena/cambiar-contrasena.component';
 import { RegistroSunatComponent } from './registro-sunat/registro-sunat.component';
 import { RegistroSunarpComponent } from './registro-sunarp/registro-sunarp.component';
+import { RegistroMontoComponent } from './registro-monto/registro-monto.component';
+import { InicioAdministradorComponent } from './inicio-administrador/inicio-administrador.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { RegistroSunarpComponent } from './registro-sunarp/registro-sunarp.compo
     RegistrarVisitaComponent,
     CambiarContrasenaComponent,
     RegistroSunatComponent,
-    RegistroSunarpComponent
+    RegistroSunarpComponent,
+    RegistroMontoComponent,
+    InicioAdministradorComponent
   ],
   imports: [
     BrowserModule,
