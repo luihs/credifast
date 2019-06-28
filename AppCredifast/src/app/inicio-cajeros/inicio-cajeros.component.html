@@ -1,0 +1,57 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img src="../../assets/credito_compra_cartera.png" width="30" height="30" alt="" class="d-inline-block align-top"> Credifast
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" data-toggle="modal" data-target="#exampleModal" href="#">Registrar Nuevo<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Cerrar Sessión</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <br>
+  <div class="container">
+    <h4 class="text-muted">Solictudes pendientes de Desembolso</h4>
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+          <div class="btn-group" role="group">
+            <button id="btnGroupDrop1" type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Ordenar
+            </button>
+            <div class="dropdown-menu" aria-labelledby="btnGroupDrop1">
+              <a class="dropdown-item" href="#">Por Tipo producto</a>
+            </div>
+          </div>
+        </div>
+      </ol>
+    </nav>
+  
+    <div class="row">
+      <div class="col-12">
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Ingrese solicitud a buscar" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Ingresar</button>  
+        </form>
+        <ul class="list-group list-group-horizontal">
+          <li class="list-group-item">
+              <a>Préstamos <span class="badge badge-secondary">Pendiente</span></a>
+              <p class="text-muted">SL-PR0001524</p>
+              <p>Prestamo por S/10,000.00</p>
+              <a href="#" data-toggle="modal" data-target="#detalle" class="btn btn-primary">Detalles</a>
+          </li>
+          <li class="list-group-item bg-success">
+            <p class="text-white">Desembolsar</p>
+          </li>
+        </ul>
+        <br>
+      </div>
+    </div>

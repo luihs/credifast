@@ -1,0 +1,151 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <img src="../../assets/credito_compra_cartera.png" width="30" height="30" alt="" class="d-inline-block align-top"> Credifast
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+     <span class="navbar-toggler-icon"></span>
+   </button>
+ 
+   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+     <ul class="navbar-nav mr-auto">
+       <li class="nav-item">
+         <a class="nav-link disabled" href="#" aria-disabled="true">Registrar Nuevo</a>
+       </li>
+       <li class="nav-item active">
+         <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Regresar</a>
+       </li>
+     </ul>
+   </div>
+</nav>
+<br>
+<div class="container">
+  <h5 class="text-muted">Consolidado de Operacion</h5>
+  <div class="row">
+    <div class="col-12">
+      <h6  class="text-muted">Información Cliente</h6>
+      <br>
+      <div class="table-responsive">
+          <table class="table table-borderless">
+            <thead>
+              <tr></tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Nombre</th>
+                <td>Luis Rivera Human</td>
+              </tr>
+              <tr>
+                <th scope="row">Dni</th>
+                <td>72534355</td>
+              </tr>
+              <tr>
+                <th scope="row">Dirección</th>
+                <td colspan="2">Av. José granda 3815</td>
+              </tr>
+              <tr>
+                <th scope="row">Fecha de Nacimiento</th>
+                <td colspan="2">29/03/1995</td>
+              </tr>
+              <tr>
+                <th scope="row">Sexo</th>
+                <td colspan="2">Masculino</td>
+              </tr>
+              <tr>
+                <th scope="row">RUC</th>
+                <td colspan="2">10725343553</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+    </div>
+    <br>
+    <div class="col-12">
+      <h6 class="text-muted">Información del Prestamo</h6>
+      <br>
+      <div class="table-responsive">
+          <table class="table table-borderless">
+              <thead>
+                <tr></tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Monto</th>
+                  <td>S/. 10,000.00</td>
+                </tr>
+                <tr>
+                  <th scope="row">Plazo</th>
+                  <td>24 Cuotas</td>
+                </tr>
+                <tr>
+                  <th scope="row">Tasa aplicada</th>
+                  <td colspan="2">Tasa 34.47 según SBS Mayo-2019</td>
+                </tr>
+              </tbody>
+            </table>
+      </div>
+      <br>
+      <h6>Desembolso</h6>
+      <form>
+          <div class="form-row">
+              <div class="form-group col-6">
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" name="exampleRadios" id="exampleCheck1" value="opt1" checked>
+                    <label class="form-check-label" for="exampleCheck1">Cuenta en otro banco</label>
+                </div>
+              </div>
+              <div class="form-group col-6">
+                <div class="form-check">
+                  <input type="radio" class="form-check-input" name="exampleRadios" id="exampleCheck2" value="opt2">
+                  <label class="form-check-label" for="exampleCheck1">Efectivo</label>
+                </div>
+              </div>
+          </div>
+          <div class="form-row">
+            <h6 class="text-muted">Indicar destino de desembolso</h6>
+            <div class="form-group col-6">
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" name="radenti" id="radentidad1" value="enti1" checked>
+                    <label class="form-check-label" for="radentidad1">BBVA</label>
+                </div>
+            </div>
+            <div class="form-group col-6">
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" name="radenti" id="radentidad2" value="enti2">
+                    <label class="form-check-label" for="radentidad2">BCP</label>
+                </div>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-6">
+              <div class="form-check">
+                <input type="radio" class="form-check-input" name="radenti" id="radentidad3" value="enti3">
+                <label class="form-check-label" for="radentidad3">Interbank</label>
+              </div>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group col-6">
+              <label for="inputEmail4">Número de Cuenta Interbancario</label>
+              <input type="email" class="form-control" id="inputEmail4" placeholder="CCI">
+            </div>
+            <div class="form-group col-6">
+                <label for="inputEmail4">Nombre del Beneficiario</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Ingrese Nombre">
+              </div>
+          </div>
+          <div class="form-row">
+              <div class="form-group col-6">
+                <label for="inputEmail4">Monto</label>
+                <input type="email" class="form-control" id="inputEmail4" placeholder="Ingrese el monto">
+              </div>
+          </div>
+          <div class="form-row">
+              <div class="form-group col-6">
+                  <button type="button" class="btn btn-outline-success">Confirmar</button>
+              </div>
+              <div class="form-group col-6">
+                <button type="button" class="btn btn-outline-danger">Cancelar</button>
+              </div>
+          </div>
+      </form>
+    </div>
+  </div>
+</div>

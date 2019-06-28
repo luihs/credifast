@@ -10,6 +10,8 @@ import { RegistroSunatComponent } from './registro-sunat/registro-sunat.componen
 import { RegistroSunarpComponent } from './registro-sunarp/registro-sunarp.component';
 import { RegistroMontoComponent } from './registro-monto/registro-monto.component';
 import { InicioAdministradorComponent } from './inicio-administrador/inicio-administrador.component';
+import { ConsolidadoFinalComponent } from './consolidado-final/consolidado-final.component';
+import { InicioCajerosComponent } from './inicio-cajeros/inicio-cajeros.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { InicioAdministradorComponent } from './inicio-administrador/inicio-admi
     RegistroSunatComponent,
     RegistroSunarpComponent,
     RegistroMontoComponent,
-    InicioAdministradorComponent
+    InicioAdministradorComponent,
+    ConsolidadoFinalComponent,
+    InicioCajerosComponent
   ],
   imports: [
     BrowserModule,

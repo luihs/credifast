@@ -7,6 +7,8 @@ import { RegistroSunatComponent } from './registro-sunat/registro-sunat.componen
 import { RegistroSunarpComponent } from './registro-sunarp/registro-sunarp.component';
 import { RegistroMontoComponent } from './registro-monto/registro-monto.component';
 import { InicioAdministradorComponent } from './inicio-administrador/inicio-administrador.component';
+import { ConsolidadoFinalComponent } from './consolidado-final/consolidado-final.component';
+import { InicioCajerosComponent } from './inicio-cajeros/inicio-cajeros.component';
 
 const routes: Routes = [
   { path: "homevisitador", component: InicioVisitadorComponent },
@@ -15,7 +17,9 @@ const routes: Routes = [
   { path: "registrosunat", component: RegistroSunatComponent },
   { path: "registrosunarp", component: RegistroSunarpComponent },
   { path: "registromonto", component: RegistroMontoComponent },
-  { path: "homeadministrador", component: InicioAdministradorComponent }
+  { path: "homeadministrador", component: InicioAdministradorComponent },
+  { path: "consolidadofinal", component: ConsolidadoFinalComponent },
+  { path: "homecajeros", component: InicioCajerosComponent }
 ];
 
 @NgModule({
